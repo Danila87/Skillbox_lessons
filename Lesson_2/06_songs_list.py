@@ -21,6 +21,8 @@ violator_songs_list = [
 # Лучше заранее вычислить необходимое, а затем в print(xxx, yyy, zzz)
 
 # TODO здесь ваш код
+summ_song = int(violator_songs_list[3][1] + violator_songs_list[5][1] + violator_songs_list[8][1])
+print(f'Общее время звучания песен "Halo", "Enjoy the Silence" и "Clean" равно {summ_song} минут')
 
 # Есть словарь песен группы Depeche Mode
 violator_songs_dict = {
@@ -39,3 +41,6 @@ violator_songs_dict = {
 #   А другие три песни звучат ХХХ минут
 
 # TODO здесь ваш код
+
+summ_song = int(violator_songs_dict['Sweetest Perfection'] + violator_songs_dict['Policy of Truth'] + violator_songs_dict['Blue Dress'])
+print(f'А другие три песни звучат {summ_song} минут')
